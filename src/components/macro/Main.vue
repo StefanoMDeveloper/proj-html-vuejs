@@ -1,10 +1,16 @@
 <template>
-  <div></div>
+  <div>
+    <Hero/>
+  </div>
 </template>
 
 <script>
+import Hero from "../sections/Hero.vue"
 export default {
     name: "Main",
+    components: {
+      Hero
+    }
 }
 </script>
 
