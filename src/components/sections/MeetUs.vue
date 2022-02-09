@@ -17,6 +17,9 @@
           :info="elem"
         />
       </div>
+      <div class="immagine text-center">
+        <img src="../../assets/img/agency-seo-desk-front-800x380.jpg" alt="">
+      </div>
     </div>
   </div>
 </template>
