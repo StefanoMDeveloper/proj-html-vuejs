@@ -64,7 +64,7 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/style/partials/variables.scss";
 .text-container {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   color: white;
 }

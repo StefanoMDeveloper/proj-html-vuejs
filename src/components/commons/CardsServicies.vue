@@ -1,46 +1,49 @@
 <template>
   <div class="col text-center my-cards">
-    <i :class="info.simbolo" ></i>
-    <h4 class="fw-bold text-capitalize m-2">{{info.titolo}}</h4>
-    <p class="m-2 description">{{info.testo}}</p>
-    <p class="read-more text-capitalize">Read more ></p>
+    <i :class="info.simbolo"></i>
+    <h4 class="fw-bold text-capitalize m-2">{{ info.titolo }}</h4>
+    <div class="testo">
+      <p class="m-2 description">{{ info.testo }}</p>
+      <p class="read-more text-capitalize">Read more ></p>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-    name: "CardsServicies",
-    props: {
-      info: Object,
-    },
-}
+  name: "CardsServicies",
+  props: {
+    info: Object,
+  },
+};
 </script>
 
 <style scoped lang="scss">
-@import '../../assets/style/partials/variables.scss';
-.my-cards{
+@import "../../assets/style/partials/variables.scss";
+.my-cards {
   background-color: $daisy-blush;
   padding: 20px;
   margin: 10px;
   color: white;
 }
 
-.description{
+.description {
   font-size: 14px;
-  line-height: 30px;
+  line-height: 26px;
 }
 
-.read-more{
-    color: $yellow-orange;
+.read-more {
+  color: $yellow-orange;
 }
 
-svg{
+svg {
   color: $yellow-orange;
   font-size: 35px;
   margin: 20px 0;
 }
 
-h4{
-    padding: 10px 0;
+h4 {
+  padding: 10px 0;
 }
+
 </style>
