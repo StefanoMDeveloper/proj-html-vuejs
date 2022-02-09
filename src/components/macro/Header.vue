@@ -1,5 +1,5 @@
 <template>
-  <div class="container fixed-top">
+  <div class="my-container">
     <div class="header-container row g-0">
       <div class="col-2">
         <img src="../../assets/img/logo_seo_w_2x.png" alt="" />
@@ -37,5 +37,9 @@ export default {
 
 div {
   height: 100%;
+}
+
+.my-container{
+  position: relative;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <Header />
     <Main />
   </div>
@@ -21,7 +21,5 @@ export default {
 
 <style lang="scss">
     @import './assets/style/global.scss';
-    #app{
-      position: relative;
-    }
+
 </style>
