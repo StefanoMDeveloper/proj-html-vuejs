@@ -1,15 +1,18 @@
 <template>
   <div>
     <Hero/>
+    <MeetUs/>
   </div>
 </template>
 
 <script>
 import Hero from "../sections/Hero.vue"
+import MeetUs from "../sections/MeetUs.vue"
 export default {
     name: "Main",
     components: {
-      Hero
+      Hero,
+      MeetUs
     }
 }
 </script>
