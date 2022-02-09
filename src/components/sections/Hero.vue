@@ -2,7 +2,7 @@
   <div class="hero-container">
     <div class="my-container">
       <div class="hero-text">
-        <h1>SEM Campaigns Made Simple With Avada</h1>
+        <h1 class="fw-bold">SEM Campaigns Made Simple With Avada</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
           blanditiis cupiditate?
@@ -33,13 +33,15 @@ export default {
 .my-container {
   position: relative;
 }
-
+.buttons{
+  padding-top: 10px;
+}
 .hero-text {
   color: white;
   width: 40%;
   position: absolute;
-  bottom: 200px;
-  left: 0;
+  bottom: 250px;
+  left: 40px;
   span {
     color: white;
   }

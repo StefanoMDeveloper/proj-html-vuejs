@@ -2,13 +2,14 @@
   <div class="col text-center my-cards">
     <i :class="info.simbolo" ></i>
     <h4 class="fw-bold text-capitalize m-2">{{info.titolo}}</h4>
-    <p class="m-2">{{info.testo}}</p>
+    <p class="m-2 description">{{info.testo}}</p>
+    <p class="read-more text-capitalize">Read more ></p>
   </div>
 </template>
 
 <script>
 export default {
-    name: "CardsMeetUs",
+    name: "CardsServicies",
     props: {
       info: Object,
     },
@@ -18,21 +19,28 @@ export default {
 <style scoped lang="scss">
 @import '../../assets/style/partials/variables.scss';
 .my-cards{
-  background-color: white;
+  background-color: $daisy-blush;
   padding: 20px;
   margin: 10px;
-
+  color: white;
 }
 
-p{
+.description{
   font-size: 14px;
-  color: $scorpion;
-  line-height: 25px;
+  line-height: 30px;
+}
+
+.read-more{
+    color: $yellow-orange;
 }
 
 svg{
   color: $yellow-orange;
   font-size: 35px;
   margin: 20px 0;
+}
+
+h4{
+    padding: 10px 0;
 }
 </style>

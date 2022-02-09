@@ -3,7 +3,7 @@
     <div class="my-container">
       <div class="text-container text-center">
         <h2 class="text-capitalize fw-bold">
-          meet the new agency SEO template from the avada team
+          see our top notch services
         </h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -11,44 +11,47 @@
         </p>
       </div>
       <div class="card-container row">
-        <CardsMeetUs
+        <CardsServicies
           v-for="(elem, index) in arrayCarte"
           :key="index"
           :info="elem"
         />
-      </div>
-      <div class="immagine text-center">
-        <img src="../../assets/img/agency-seo-desk-front-800x380.jpg" alt="">
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import CardsMeetUs from "../commons/CardsMeetUs.vue";
+import CardsServicies from "../commons/CardsServicies.vue";
 export default {
-  name: "MeetUs",
+  name: "Servicies",
   components: {
-    CardsMeetUs,
+    CardsServicies,
   },
   data() {
     return {
       arrayCarte: [
         {
-          simbolo: "fas fa-solid fa-road",
-          titolo: "establish goals",
+          simbolo: "fas fa-brands fa-google",
+          titolo: "Google SEO",
           testo:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam est laudantium sapiente, delectus magni animi dolorum quo.",
         },
         {
-          simbolo: "fas fa-solid fa-video",
-          titolo: "work with a team",
+          simbolo: "fas fa-solid fa-gear",
+          titolo: "Brand Strategy",
           testo:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam est laudantium sapiente, delectus magni animi dolorum quo.",
         },
         {
-          simbolo: "fas fa-solid fa-droplet",
-          titolo: "get results",
+          simbolo: "fas fa-solid fa-building",
+          titolo: "Local SEO",
+          testo:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam est laudantium sapiente, delectus magni animi dolorum quo.",
+        },
+        {
+          simbolo: "fas fa-solid fa-chart-column",
+          titolo: "SEO analysis",
           testo:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam est laudantium sapiente, delectus magni animi dolorum quo.",
         },
@@ -61,22 +64,28 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/style/partials/variables.scss";
 .text-container {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
+  color: white;
 }
 
 .card-container{
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .sezione {
-  background-color: $alabaster;
-  padding-top: 80px;
+  background-image: url("../../assets/img/pattern_background.png");
+  padding-top: 60px;
+  background-color: $deep-cove;
+  background-size: contain;
+}
+p{
+  padding: 10px 0 50px 0;
 }
 
-p{
-  color: $scorpion;
-  padding: 10px 0 30px 0;
+h2{
+  margin-top: 30px;
 }
 </style>
