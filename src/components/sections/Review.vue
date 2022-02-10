@@ -36,7 +36,7 @@ export default {
         {
           testimonial: "/img/testimonials-1.aa095ba8.jpg",
           commento:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam est laudantium sapiente, delectus magni animi dolorum quo.",
+            "Intentio certe non prodest, quod petimus mortales animas. Gratias omnibus pro collatione vestra, speramus te mox iterum videre, in inferno!",
           nome: "Anne Roxoff",
           azienda: "W-orld DOMAINc.",
           visibile: false,
