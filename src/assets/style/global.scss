@@ -10,6 +10,11 @@ RESET
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: both mandatory;
+}
+
 /* ------------------------
 GLOBALS
 ------------------------ */

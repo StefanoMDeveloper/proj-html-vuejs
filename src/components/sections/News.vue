@@ -73,7 +73,7 @@ export default {
 }
 
 .sezione {
-  background-color: $alabaster;
+  background-color: $concrete;
   padding-top: 80px;
 }
 
