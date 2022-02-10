@@ -7,6 +7,8 @@
     <Plans/>
     <News/>
     <Review/>
+    <Partners/>
+    <Consultation/>
   </div>
 </template>
 
@@ -18,6 +20,8 @@ import OurWork from "../sections/OurWork.vue"
 import Plans from "../sections/Plans.vue"
 import News from "../sections/News.vue"
 import Review from "../sections/Review.vue"
+import Partners from "../sections/Partners.vue"
+import Consultation from "../sections/Consultation.vue"
 export default {
     name: "Main",
     components: {
@@ -28,6 +32,8 @@ export default {
       Plans,
       News,
       Review,
+      Partners,
+      Consultation,
     }
 }
 </script>

@@ -22,14 +22,15 @@ GLOBALS
     background-color: $yellow-orange;
     text-transform: uppercase!important;
     font-size: 13px!important;
-    padding: 13px 25px;
+    padding: 13px 25px!important;
+    color: white;
 }
 
 .blue-button{
     background-color: $science-blue;
     text-transform: uppercase!important;
     font-size: 13px!important;
-    padding: 13px 25px;
+    padding: 13px 25px!important;
 }
 
 .text-orange{
