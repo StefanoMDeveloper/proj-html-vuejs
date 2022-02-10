@@ -1,14 +1,14 @@
 <template>
   <div>
-    <Hero/>
-    <MeetUs/>
-    <Servicies/>
-    <OurWork/>
-    <Plans/>
-    <News/>
-    <Review/>
-    <Partners/>
-    <Consultation/>
+    <Hero id="hero"/>
+    <MeetUs id="meetUs"/>
+    <Servicies id="services"/>
+    <OurWork id="ourWork"/>
+    <Plans id="plans"/>
+    <News id="news"/>
+    <Review />
+    <Partners />
+    <Consultation id="consultation"/>
   </div>
 </template>
 

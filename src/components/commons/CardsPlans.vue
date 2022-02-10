@@ -14,7 +14,8 @@
       <p class="m-2">{{ info.memoria }}</p>
       <p class="m-2">{{ info.nUtenti }}</p>
     </div>
-    <div class="btn rounded-pill orange-button text-white fw-bold">start today</div>
+    <div v-if="info.attivo" class="btn rounded-pill orange-button text-white fw-bold">start today</div>
+    <div v-else class="btn rounded-pill white-button fw-bold">start today</div>
   </div>
 </template>
 

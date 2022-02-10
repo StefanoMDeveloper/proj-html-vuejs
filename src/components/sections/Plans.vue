@@ -37,7 +37,8 @@ export default {
           abbonamento: "monthly",
           nProgetti: "5 projects",
           memoria: "5 GB Storage",
-          nUtenti: "Unlimited Users"
+          nUtenti: "Unlimited Users",
+          attivo: false
         },
         {
           titolo: "Premium",
@@ -46,7 +47,8 @@ export default {
           abbonamento: "monthly",
           nProgetti: "5 projects",
           memoria: "5 GB Storage",
-          nUtenti: "Unlimited Users"
+          nUtenti: "Unlimited Users",
+          attivo: false
         },
         {
           titolo: "Professional",
@@ -55,7 +57,8 @@ export default {
           abbonamento: "monthly",
           nProgetti: "5 projects",
           memoria: "5 GB Storage",
-          nUtenti: "Unlimited Users"
+          nUtenti: "Unlimited Users",
+          attivo: true
         },
         {
           titolo: "Extreme",
@@ -64,7 +67,8 @@ export default {
           abbonamento: "monthly",
           nProgetti: "5 projects",
           memoria: "5 GB Storage",
-          nUtenti: "Unlimited Users"
+          nUtenti: "Unlimited Users",
+          attivo: false
         },
       ],
     };

@@ -30,6 +30,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1;
   img {
     height: 100%;
   }
@@ -41,5 +42,6 @@ div {
 
 .my-container{
   position: relative;
+  z-index: 999;
 }
 </style>

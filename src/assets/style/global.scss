@@ -26,6 +26,15 @@ GLOBALS
     color: white;
 }
 
+.white-button{
+    background-color: white;
+    border: 2px solid gray;
+    text-transform: uppercase!important;
+    font-size: 13px!important;
+    padding: 13px 25px!important;
+    color: grey;
+}
+
 .blue-button{
     background-color: $science-blue;
     text-transform: uppercase!important;
@@ -35,6 +44,14 @@ GLOBALS
 
 .text-orange{
     color: $yellow-orange!important;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    &:hover{
+        color: inherit;
+    }
 }
 
 /* ------------------------

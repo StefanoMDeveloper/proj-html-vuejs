@@ -1,13 +1,13 @@
 <template>
   <div  class="menu">
     <ul>
-      <li class="text-orange">home</li>
-      <li>Who We Are</li>
-      <li>What we Do</li>
-      <li>Where We Work</li>
-      <li>Careers</li>
-      <li>News</li>
-      <li>Get in touch now</li>
+      <li class="text-orange"><a href="#hero">home</a></li>
+      <li><a href="#meetUs">Who We Are</a></li>
+      <li><a href="#services">What we Do</a></li>
+      <li><a href="#ourWork">Where We Work</a></li>
+      <li><a href="#plans">Careers</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#consultation">Get in touch now</a></li>
     </ul>
   </div>
 </template>
