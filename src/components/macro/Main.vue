@@ -4,6 +4,7 @@
     <MeetUs/>
     <Servicies/>
     <OurWork/>
+    <Plans/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from "../sections/Hero.vue"
 import MeetUs from "../sections/MeetUs.vue"
 import Servicies from "../sections/Servicies.vue"
 import OurWork from "../sections/OurWork.vue"
+import Plans from "../sections/Plans.vue"
 export default {
     name: "Main",
     components: {
@@ -19,6 +21,7 @@ export default {
       MeetUs,
       Servicies,
       OurWork,
+      Plans,
     }
 }
 </script>
